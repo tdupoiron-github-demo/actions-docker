@@ -1,0 +1,14 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Demo Docker Action Worflow
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  docker:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: ./
+        with:
+          who-to-greet: 'John Doe'
