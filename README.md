@@ -16,6 +16,6 @@ The time we greeted you.
 
 ## Example usage
 
-uses: tdupoiron-github-demo/actions-docker@v1
+uses: tdupoiron-github-demo/actions-docker@v1.0.0-alpha
 with:
   who-to-greet: 'Mona the Octocat'
